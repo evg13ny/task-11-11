@@ -203,11 +203,11 @@ const personGenerator = {
     randomBirthday: function () {
         year = this.randomIntNumber(2002, 1950);
         month = this.randomValue(this.monthJson);
-        if (this.month === 'апреля' || 'июня' || 'сентября' || 'ноября') {
+        if (this.month === 'id_4' || 'id_6' || 'id_9' || 'id_11') {
             day = this.randomIntNumber(30, 1);
-        } else if (this.month === 'февраля' & year % 4 === 0) {
+        } else if (this.month === 'id_2' && year % 4 === 0) {
             day = this.randomIntNumber(29, 1);
-        } else if (this.month === 'февраля' & year % 4 != 0) {
+        } else if (this.month === 'id_2' && year % 4 !== 0) {
             day = this.randomIntNumber(28, 1);
         } else day = this.randomIntNumber(31, 1);
         date = `${day} ${month} ${year} г.`;
