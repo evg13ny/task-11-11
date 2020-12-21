@@ -1,0 +1,21 @@
+.card-header,
+.card-footer {
+    background-color: skyBlue;
+    border-color: black;
+}
+
+.card-body {
+    background-color: lightCyan;
+}
+
+.card {
+    border-color: black;
+}
+
+.card-header {
+    font-family: 'Open Sans', monospace;
+}
+
+.container {
+    margin-top: 50px;
+}
